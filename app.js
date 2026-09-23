@@ -12,7 +12,7 @@ function debounce(func, timeout = 300) {
 async function fetchAddressSuggestions(query) {
     if (query.length < 3) return;
     try {
-        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&addressdetails=1&limit=5`);
+        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&addressdetails=1&limit=5&countrycodes=fr`);
         const data = await response.json();
         displaySuggestions(data);
     } catch (error) {
@@ -36,6 +36,43 @@ function displaySuggestions(results) {
     });
 }
 
+// --- Recommendation Engine Utilities ---
+
+async function getCoordsFromAddress(address) {
+    if (!address) return null;
+    try {
+        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&countrycodes=fr`);
+        const data = await response.json();
+        if (data && data.length > 0) {
+            return {
+                lat: parseFloat(data[0].lat),
+                lon: parseFloat(data[0].lon)
+            };
+        }
+    } catch (error) {
+        console.error("Geocoding error:", error);
+    }
+    return null;
+}
+
+function calculateDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Earth's radius in km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+}
+
+function calculateRRF(rankGeo, rankPref, k = 60) {
+    return (1 / (k + rankGeo)) + (1 / (k + rankPref));
+}
+
+// --- Data Loading ---
+
 async function loadLieux() {
     try {
         const response = await fetch(`./data.json?v=${new Date().getTime()}`);
@@ -55,7 +92,8 @@ function renderLieux(lieux, scores = {}) {
         const card = document.createElement('div');
         card.className = 'lieu-card';
 
-        const displayScore = scores[lieu.id] ? scores[lieu.id].toFixed(1) : '—';
+        const displayScore = scores[lieu.id] ? scores[lieu.id].toFixed(4) : '—';
+        const displayDist = lieu.distance ? `${lieu.distance.toFixed(2)} km` : '—';
 
         const renderDrops = (val) => {
             const rounded = Math.round(val);
@@ -67,7 +105,10 @@ function renderLieux(lieux, scores = {}) {
         card.innerHTML = `
             <div class="card-header">
                 <h3>${lieu.name}</h3>
-                <span class="card-score">Score: ${displayScore}</span>
+                <div class="card-metrics">
+                    <span class="card-score">Score: ${displayScore}</span>
+                    <span class="card-dist">Distance: ${displayDist}</span>
+                </div>
             </div>
             <div class="card-content">
                 <div class="info-grid">
@@ -112,43 +153,92 @@ async function calculateRanking() {
     };
 
     try {
-        const response = await fetch('http://localhost:8001/recommend', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ address: userAddress, weights: weights })
+        // 1. Geocoding
+        const userCoords = await getCoordsFromAddress(userAddress);
+
+        // 2. Geographic Ranking
+        const geoResults = [];
+        if (userCoords) {
+            allLieux.forEach(pool => {
+                const dist = calculateDistance(userCoords.lat, userCoords.lon, pool.latitude, pool.longitude);
+                geoResults.push({ id: pool.id, dist });
+            });
+            geoResults.sort((a, b) => a.dist - b.dist);
+        }
+
+        const geoRanks = {};
+        if (userCoords && geoResults.length > 0) {
+            geoResults.forEach((res, i) => {
+                geoRanks[res.id] = i + 1;
+            });
+        } else {
+            // Neutral rank for all if no coordinates
+            allLieux.forEach(pool => {
+                geoRanks[pool.id] = allLieux.length + 1;
+            });
+        }
+
+        // 3. Preference Ranking
+        const prefResults = [];
+        allLieux.forEach(pool => {
+            let totalScore = 0;
+            for (const [attr, weight] of Object.entries(weights)) {
+                const poolScore = pool.scores[attr] ? pool.scores[attr].val : 0;
+                totalScore += poolScore * weight;
+            }
+            prefResults.push({ id: pool.id, score: totalScore });
+        });
+        prefResults.sort((a, b) => b.score - a.score);
+
+        const prefRanks = {};
+        prefResults.forEach((res, i) => {
+            prefRanks[res.id] = i + 1;
         });
 
-        if (!response.ok) throw new Error('Backend error');
+        // 4. RRF Fusion
+        const rankedData = allLieux.map(pool => {
+            const pid = pool.id;
 
-        const rankedData = await response.json();
+            let rrf_score;
+            if (userCoords) {
+                rrf_score = calculateRRF(geoRanks[pid], prefRanks[pid]);
+            } else {
+                // If no address, the score is purely based on preference rank
+                // We can represent this as just 1 / (60 + rankPref)
+                // or treat geoRank as a constant neutral value.
+                // To stay consistent with the RRF formula:
+                rrf_score = 1 / (60 + prefRanks[pid]);
+            }
 
-        const poolsWithDist = rankedData.filter(item => item.distance !== null);
-        const avgScore = rankedData.reduce((acc, item) => acc + item.rrf_score, 0) / rankedData.length;
-        const avgDist = poolsWithDist.length > 0
-            ? poolsWithDist.reduce((acc, item) => acc + item.distance, 0) / poolsWithDist.length
-            : null;
+            let dist = null;
+            if (userCoords) {
+                dist = calculateDistance(userCoords.lat, userCoords.lon, pool.latitude, pool.longitude);
+            }
 
-        const summaryDiv = document.getElementById('search-summary');
-        let summaryText = `Moyenne : ${avgScore.toFixed(4)}`;
-        if (avgDist !== null) {
-            summaryText += ` | Distance moyenne : ${avgDist.toFixed(2)} km`;
-        } else {
-            summaryText += ` | Distance : N/A (adresse non fournie)`;
-        }
-        summaryDiv.innerHTML = summaryText;
+            return {
+                id: pid,
+                name: pool.name,
+                rrf_score: rrf_score,
+                distance: dist
+            };
+        });
 
+        rankedData.sort((a, b) => b.rrf_score - a.rrf_score);
+
+        // 5. UI Integration
         const finalSortedLieux = rankedData.map(item => {
             const pool = allLieux.find(l => l.id === item.id);
-            return { ...pool, calculatedScore: item.rrf_score };
+            return { ...pool, calculatedScore: item.rrf_score, distance: item.distance };
         });
 
         const scoreMap = {};
         rankedData.forEach(item => scoreMap[item.id] = item.rrf_score);
 
         renderLieux(finalSortedLieux, scoreMap);
+
     } catch (error) {
         console.error("Ranking error:", error);
-        alert("Erreur lors de la connexion au serveur de recommandation.");
+        alert("Une erreur est survenue lors du calcul du classement.");
     }
 }
 
