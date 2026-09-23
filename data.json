@@ -9,10 +9,21 @@
     "photo": "lieu-a.jpg",
     "notes": "Très agréable, proche des transports.",
     "scores": {
-      "calme": 6.5,
-      "nature": 2.0,
-      "culture": 9.0,
-      "restaurants": 8.0
+      "materiel": { "label": "Matériel à disposition", "val": 4 },
+      "frequentation": { "label": "Fréquentation", "val": 3 },
+      "ouverture": { "label": "Horaires d'ouverture", "val": 5 },
+      "amabilite": { "label": "Amabilité du personnel", "val": 4 },
+      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
+      "vestiaire": { "label": "État des vestiaires", "val": 3 },
+      "eau": { "label": "Qualité de l'eau", "val": 4 },
+      "prix": { "label": "Prix", "val": 4 },
+      "beaute": { "label": "Beauté du lieu", "val": 5 },
+      "temperature": { "label": "Température de l'eau", "val": 3 }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires classiques, un peu anciens mais propres.",
+      "desc_bassin": "Bassin olympique avec une lumière naturelle superbe."
     }
   },
   {
@@ -25,10 +36,21 @@
     "photo": "lieu-b.jpg",
     "notes": "Ambiance urbaine et dynamique.",
     "scores": {
-      "calme": 4.0,
-      "nature": 5.0,
-      "culture": 6.0,
-      "restaurants": 9.5
+      "materiel": { "label": "Matériel à disposition", "val": 3 },
+      "frequentation": { "label": "Fréquentation", "val": 2 },
+      "ouverture": { "label": "Horaires d'ouverture", "val": 4 },
+      "amabilite": { "label": "Amabilité du personnel", "val": 3 },
+      "proprete_bassin": { "label": "Propreté du bassin", "val": 3 },
+      "vestiaire": { "label": "État des vestiaires", "val": 2 },
+      "eau": { "label": "Qualité de l'eau", "val": 3 },
+      "prix": { "label": "Prix", "val": 5 },
+      "beaute": { "label": "Beauté du lieu", "val": 4 },
+      "temperature": { "label": "Température de l'eau", "val": 4 }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires communs, accès rapide.",
+      "desc_bassin": "Lignes bien marquées, idéal pour l'entraînement."
     }
   },
   {
@@ -41,10 +63,21 @@
     "photo": "lieu-c.jpg",
     "notes": "Très propre et bien entretenue.",
     "scores": {
-      "calme": 7.0,
-      "nature": 1.0,
-      "culture": 7.0,
-      "restaurants": 7.0
+      "materiel": { "label": "Matériel à disposition", "val": 5 },
+      "frequentation": { "label": "Fréquentation", "val": 4 },
+      "ouverture": { "label": "Horaires d'ouverture", "val": 5 },
+      "amabilite": { "label": "Amabilité du personnel", "val": 5 },
+      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
+      "vestiaire": { "label": "État des vestiaires", "val": 4 },
+      "eau": { "label": "Qualité de l'eau", "val": 5 },
+      "prix": { "label": "Prix", "val": 3 },
+      "beaute": { "label": "Beauté du lieu", "val": 3 },
+      "temperature": { "label": "Température de l'eau", "val": 4 }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Modernes et spacieux.",
+      "desc_bassin": "Eau cristalline, ambiance zen."
     }
   },
   {
@@ -57,10 +90,21 @@
     "photo": "lieu-d.jpg",
     "notes": "Expérience haut de gamme, cadre exceptionnel.",
     "scores": {
-      "calme": 8.0,
-      "nature": 6.0,
-      "culture": 10.0,
-      "restaurants": 9.0
+      "materiel": { "label": "Matériel à disposition", "val": 5 },
+      "frequentation": { "label": "Fréquentation", "val": 5 },
+      "ouverture": { "label": "Horaires d'ouverture", "val": 4 },
+      "amabilite": { "label": "Amabilité du personnel", "val": 5 },
+      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
+      "vestiaire": { "label": "État des vestiaires", "val": 5 },
+      "eau": { "label": "Qualité de l'eau", "val": 4 },
+      "prix": { "label": "Prix", "val": 2 },
+      "beaute": { "label": "Beauté du lieu", "val": 5 },
+      "temperature": { "label": "Température de l'eau", "val": 5 }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Luxe total, cabines individuelles.",
+      "desc_bassin": "L'un des plus beaux bassins de Paris."
     }
   },
   {
@@ -73,10 +117,21 @@
     "photo": "lieu-e.jpg",
     "notes": "Vue incroyable sur la ville.",
     "scores": {
-      "calme": 5.0,
-      "nature": 8.0,
-      "culture": 8.0,
-      "restaurants": 6.0
+      "materiel": { "label": "Matériel à disposition", "val": 3 },
+      "frequentation": { "label": "Fréquentation", "val": 3 },
+      "ouverture": { "label": "Horaires d'ouverture", "val": 3 },
+      "amabilite": { "label": "Amabilité du personnel", "val": 4 },
+      "proprete_bassin": { "label": "Propreté du bassin", "val": 4 },
+      "vestiaire": { "label": "État des vestiaires", "val": 3 },
+      "eau": { "label": "Qualité de l'eau", "val": 4 },
+      "prix": { "label": "Prix", "val": 3 },
+      "beaute": { "label": "Beauté du lieu", "val": 5 },
+      "temperature": { "label": "Température de l'eau", "val": 4 }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Compact mais fonctionnel.",
+      "desc_bassin": "Sensation unique de nager sur le fleuve."
     }
   },
   {
@@ -89,10 +144,21 @@
     "photo": "lieu-f.jpg",
     "notes": "Parfait pour nager tranquillement.",
     "scores": {
-      "calme": 9.0,
-      "nature": 2.0,
-      "culture": 7.0,
-      "restaurants": 5.0
+      "materiel": { "label": "Matériel à disposition", "val": 4 },
+      "frequentation": { "label": "Fréquentation", "val": 5 },
+      "ouverture": { "label": "Horaires d'ouverture", "val": 4 },
+      "amabilite": { "label": "Amabilité du personnel", "val": 4 },
+      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
+      "vestiaire": { "label": "État des vestiaires", "val": 4 },
+      "eau": { "label": "Qualité de l'eau", "val": 5 },
+      "prix": { "label": "Prix", "val": 4 },
+      "temperature": { "label": "Température de l'eau", "val": 4 },
+      "beaute": { "label": "Beauté du lieu", "val": 4 }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Propres et bien organisés.",
+      "desc_bassin": "Atmosphère feutrée et apaisante."
     }
   }
 ]

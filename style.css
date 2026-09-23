@@ -35,6 +35,16 @@ header h1 {
     font-size: 1.2rem;
     color: #555;
     text-align: center;
+    margin-bottom: 15px;
+}
+
+.search-summary {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #0077be;
+    font-size: 1.1rem;
+    min-height: 1.5rem;
 }
 
 .filter-grid {
@@ -54,13 +64,63 @@ header h1 {
 .filter-group.full-width {
     grid-column: 1 / -1;
     align-items: stretch;
+    text-align: left;
 }
 
-.filter-group.full-width input {
+.autocomplete-container {
+    position: relative;
+    width: 100%;
+}
+
+.autocomplete-container input {
+    width: 100%;
+    box-sizing: border-box;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 1rem;
+}
+
+.autocomplete-container {
+    position: relative;
+    width: 100%;
+}
+
+.suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.filter-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    cursor: pointer;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f7fa;
+    color: #0077be;
 }
 
 .filter-group label {
@@ -87,8 +147,8 @@ header h1 {
 }
 
 #pool-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 

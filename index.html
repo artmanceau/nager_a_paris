@@ -15,30 +15,54 @@
 
         <section id="filter-menu" class="filter-container">
             <h2>Mes Critères</h2>
+            <div id="search-summary" class="search-summary"></div>
             <div class="filter-grid">
                 <div class="filter-group full-width">
                     <label for="filter-address">Votre Adresse</label>
-                    <input type="text" id="filter-address" placeholder="Ex: 12 rue de Rivoli, Paris">
+                    <div class="autocomplete-container">
+                        <input type="text" id="filter-address" placeholder="Ex: 12 rue de Rivoli, Paris" autocomplete="off">
+                        <div id="address-suggestions" class="suggestions-dropdown"></div>
+                    </div>
+                </div>
+
+                <div class="filter-group full-width">
+                    <label>Je viens...</label>
+                    <select id="filter-company">
+                        <option value="solo">Solo</option>
+                        <option value="couple">En couple</option>
+                        <option value="potes">Entre potes</option>
+                        <option value="enfants">Avec enfants</option>
+                    </select>
+                </div>
+
+                <div class="filter-group full-width">
+                    <label>Je nage...</label>
+                    <select id="filter-style">
+                        <option value="jo">Comme aux JO</option>
+                        <option value="chill">Chill</option>
+                        <option value="barbote">Je barbote</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-beaute">Beauté du lieu</label>
+                    <input type="range" id="filter-beaute" min="0" max="10" value="5">
+                    <span id="val-beaute">5</span>
                 </div>
                 <div class="filter-group">
-                    <label for="filter-calme">Calme</label>
-                    <input type="range" id="filter-calme" min="0" max="10" value="5">
-                    <span id="val-calme">5</span>
+                    <label for="filter-temp">Sensibilité eau froide</label>
+                    <input type="range" id="filter-temp" min="0" max="10" value="5">
+                    <span id="val-temp">5</span>
                 </div>
                 <div class="filter-group">
-                    <label for="filter-nature">Nature</label>
-                    <input type="range" id="filter-nature" min="0" max="10" value="5">
-                    <span id="val-nature">5</span>
+                    <label for="filter-freq">Fréquentation</label>
+                    <input type="range" id="filter-freq" min="0" max="10" value="5">
+                    <span id="val-freq">5</span>
                 </div>
                 <div class="filter-group">
-                    <label for="filter-culture">Culture</label>
-                    <input type="range" id="filter-culture" min="0" max="10" value="5">
-                    <span id="val-culture">5</span>
-                </div>
-                <div class="filter-group">
-                    <label for="filter-restaurants">Restaurants</label>
-                    <input type="range" id="filter-restaurants" min="0" max="10" value="5">
-                    <span id="val-restaurants">5</span>
+                    <label for="filter-prop">Propreté</label>
+                    <input type="range" id="filter-prop" min="0" max="10" value="5">
+                    <span id="val-prop">5</span>
                 </div>
             </div>
             <button id="search-btn">Rechercher le spot idéal</button>
