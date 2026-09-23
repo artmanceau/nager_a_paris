@@ -1,164 +1,3066 @@
 [
   {
-    "id": "lieu-a",
-    "name": "Piscine Municipale Rivoli",
-    "description": "Une piscine historique avec un cadre architectural magnifique.",
-    "address": "12 rue de Rivoli, Paris",
-    "latitude": 48.8566,
-    "longitude": 2.3522,
-    "photo": "lieu-a.jpg",
-    "notes": "Très agréable, proche des transports.",
+    "id": "piscine-suzanne-berlioux-les-halles",
+    "name": "Piscine Suzanne Berlioux (Les Halles)",
+    "website": "https://www.paris.fr/lieux/piscine-suzanne-berlioux-les-halles-2916",
+    "arrondissement": "1",
+    "horaires": "Période Scolaire\n\n\n                  06:30 à 08:30\n\n                  12:00 à 23:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "10 place de la rotonde Forum des halles, 1<sup>er</sup>",
+    "latitude": 48.8569,
+    "longitude": 2.297,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2024/08/12/e424fb9211cf4e2371b662219f6ace8b.jpg",
+    "notes": "Une expérience de nage plaisante.",
     "scores": {
-      "materiel": { "label": "Matériel à disposition", "val": 4 },
-      "frequentation": { "label": "Fréquentation", "val": 3 },
-      "ouverture": { "label": "Horaires d'ouverture", "val": 5 },
-      "amabilite": { "label": "Amabilité du personnel", "val": 4 },
-      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
-      "vestiaire": { "label": "État des vestiaires", "val": 3 },
-      "eau": { "label": "Qualité de l'eau", "val": 4 },
-      "prix": { "label": "Prix", "val": 4 },
-      "beaute": { "label": "Beauté du lieu", "val": 5 },
-      "temperature": { "label": "Température de l'eau", "val": 3 }
-    },
-    "details": {
-      "vestiaire_sep": true,
-      "desc_vestiaire": "Vestiaires classiques, un peu anciens mais propres.",
-      "desc_bassin": "Bassin olympique avec une lumière naturelle superbe."
-    }
-  },
-  {
-    "id": "lieu-b",
-    "name": "Bassin de la Villette",
-    "description": "Un grand espace ouvert idéal pour les longueurs en plein air.",
-    "address": "Bassin de la Villette, Paris",
-    "latitude": 48.883,
-    "longitude": 2.382,
-    "photo": "lieu-b.jpg",
-    "notes": "Ambiance urbaine et dynamique.",
-    "scores": {
-      "materiel": { "label": "Matériel à disposition", "val": 3 },
-      "frequentation": { "label": "Fréquentation", "val": 2 },
-      "ouverture": { "label": "Horaires d'ouverture", "val": 4 },
-      "amabilite": { "label": "Amabilité du personnel", "val": 3 },
-      "proprete_bassin": { "label": "Propreté du bassin", "val": 3 },
-      "vestiaire": { "label": "État des vestiaires", "val": 2 },
-      "eau": { "label": "Qualité de l'eau", "val": 3 },
-      "prix": { "label": "Prix", "val": 5 },
-      "beaute": { "label": "Beauté du lieu", "val": 4 },
-      "temperature": { "label": "Température de l'eau", "val": 4 }
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": "Très fréquentée"
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 5,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 1,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 4,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
     },
     "details": {
       "vestiaire_sep": false,
-      "desc_vestiaire": "Vestiaires communs, accès rapide.",
-      "desc_bassin": "Lignes bien marquées, idéal pour l'entraînement."
-    }
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
   },
   {
-    "id": "lieu-c",
-    "name": "Piscine Pontoise",
-    "description": "Une piscine moderne et lumineuse dans le 1er arrondissement.",
-    "address": "Rue de Pontoise, Paris",
-    "latitude": 48.865,
-    "longitude": 2.341,
-    "photo": "lieu-c.jpg",
-    "notes": "Très propre et bien entretenue.",
+    "id": "piscine-marie-marvingt",
+    "name": "Piscine Marie-Marvingt",
+    "website": "https://www.paris.fr/lieux/piscine-marie-marvingt-2",
+    "arrondissement": "4",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  13:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "16 rue du renard, 4<sup>e</sup>",
+    "latitude": 48.8949,
+    "longitude": 2.3884,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/9553c36db637ca51bff4457b956b2854.jpg",
+    "notes": "Une expérience de nage plaisante.",
     "scores": {
-      "materiel": { "label": "Matériel à disposition", "val": 5 },
-      "frequentation": { "label": "Fréquentation", "val": 4 },
-      "ouverture": { "label": "Horaires d'ouverture", "val": 5 },
-      "amabilite": { "label": "Amabilité du personnel", "val": 5 },
-      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
-      "vestiaire": { "label": "État des vestiaires", "val": 4 },
-      "eau": { "label": "Qualité de l'eau", "val": 5 },
-      "prix": { "label": "Prix", "val": 3 },
-      "beaute": { "label": "Beauté du lieu", "val": 3 },
-      "temperature": { "label": "Température de l'eau", "val": 4 }
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 1,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 10",
+    "profondeur": "0,60 m à 2 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "espace-sportif-pontoise",
+    "name": "Espace Sportif Pontoise",
+    "website": "https://www.paris.fr/lieux/espace-sportif-pontoise-2918",
+    "arrondissement": "5",
+    "horaires": "Période scolaire \n\n\n                  06:30 à 19:45\n\n                  20:00 à 22:45\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "16 rue du renard, 4<sup>e</sup>",
+    "latitude": 48.8834,
+    "longitude": 2.2999,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/9553c36db637ca51bff4457b956b2854.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 2,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
     },
     "details": {
       "vestiaire_sep": true,
-      "desc_vestiaire": "Modernes et spacieux.",
-      "desc_bassin": "Eau cristalline, ambiance zen."
-    }
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "tarif": "3€50 / réduit 2€"
   },
   {
-    "id": "lieu-d",
-    "name": "Piscine Molitor",
-    "description": "La piscine mythique de Paris, luxe et art déco.",
-    "address": "130 rue de Vaugirard, Paris",
-    "latitude": 48.834,
-    "longitude": 2.284,
-    "photo": "lieu-d.jpg",
-    "notes": "Expérience haut de gamme, cadre exceptionnel.",
+    "id": "piscine-jean-taris",
+    "name": "Piscine Jean Taris",
+    "website": "https://www.paris.fr/lieux/piscine-jean-taris-3325",
+    "arrondissement": "5",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "16, rue Thouin, 5<sup>e</sup>",
+    "latitude": 48.8185,
+    "longitude": 2.3776,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/c3044f38c1acd02ff68b302be0faed04.jpg",
+    "notes": "Une expérience de nage plaisante.",
     "scores": {
-      "materiel": { "label": "Matériel à disposition", "val": 5 },
-      "frequentation": { "label": "Fréquentation", "val": 5 },
-      "ouverture": { "label": "Horaires d'ouverture", "val": 4 },
-      "amabilite": { "label": "Amabilité du personnel", "val": 5 },
-      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
-      "vestiaire": { "label": "État des vestiaires", "val": 5 },
-      "eau": { "label": "Qualité de l'eau", "val": 4 },
-      "prix": { "label": "Prix", "val": 2 },
-      "beaute": { "label": "Beauté du lieu", "val": 5 },
-      "temperature": { "label": "Température de l'eau", "val": 5 }
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 1,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 2,
+        "comment": ""
+      }
     },
     "details": {
       "vestiaire_sep": true,
-      "desc_vestiaire": "Luxe total, cabines individuelles.",
-      "desc_bassin": "L'un des plus beaux bassins de Paris."
-    }
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
   },
   {
-    "id": "lieu-e",
-    "name": "Piscine Josephine Baker",
-    "description": "Une piscine flottante unique sur la Seine.",
-    "address": "Quai d'Orsay, Paris",
-    "latitude": 48.861,
-    "longitude": 2.318,
-    "photo": "lieu-e.jpg",
-    "notes": "Vue incroyable sur la ville.",
+    "id": "piscine-saint-germain",
+    "name": "Piscine Saint-Germain ",
+    "website": "https://www.paris.fr/lieux/piscine-saint-germain-2919",
+    "arrondissement": "6",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "12, rue Lobineau, 6<sup>e</sup>",
+    "latitude": 48.8739,
+    "longitude": 2.3396,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/985b4db1dbeb95ae2b1c4c517f856c97.jpg",
+    "notes": "Une expérience de nage plaisante.",
     "scores": {
-      "materiel": { "label": "Matériel à disposition", "val": 3 },
-      "frequentation": { "label": "Fréquentation", "val": 3 },
-      "ouverture": { "label": "Horaires d'ouverture", "val": 3 },
-      "amabilite": { "label": "Amabilité du personnel", "val": 4 },
-      "proprete_bassin": { "label": "Propreté du bassin", "val": 4 },
-      "vestiaire": { "label": "État des vestiaires", "val": 3 },
-      "eau": { "label": "Qualité de l'eau", "val": 4 },
-      "prix": { "label": "Prix", "val": 3 },
-      "beaute": { "label": "Beauté du lieu", "val": 5 },
-      "temperature": { "label": "Température de l'eau", "val": 4 }
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 4,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 12,5",
+    "profondeur": "0,80 m à 3,60 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-jacqueline-auriol",
+    "name": "Piscine Jacqueline Auriol",
+    "website": "https://www.paris.fr/lieux/piscine-jacqueline-auriol-17349",
+    "arrondissement": "8",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "7 Allée Louis de Funès, 8<sup>e</sup>",
+    "latitude": 48.8421,
+    "longitude": 2.369,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/30/45cd5e5bcf41d402e2ba2f45490a1d89.jpeg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 5,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 2,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 2,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-georges-drigny",
+    "name": "Piscine Georges Drigny",
+    "website": "https://www.paris.fr/lieux/piscine-georges-drigny-2920",
+    "arrondissement": "9",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 22:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "18, rue Bochart de Saron, 9<sup>e</sup>",
+    "latitude": 48.8499,
+    "longitude": 2.2714,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/a5060d1f2b6bb3c3354eac9d86e9d421.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 5,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 4,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 2,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
     },
     "details": {
       "vestiaire_sep": true,
-      "desc_vestiaire": "Compact mais fonctionnel.",
-      "desc_bassin": "Sensation unique de nager sur le fleuve."
-    }
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
   },
   {
-    "id": "lieu-f",
-    "name": "Piscine Georges Carpentier",
-    "description": "Élégance et calme dans le 14ème arrondissement.",
-    "address": "Rue Georges Carpentier, Paris",
+    "id": "piscine-paul-valeyre",
+    "name": "Piscine Paul Valeyre",
+    "website": "https://www.paris.fr/lieux/piscine-paul-valeyre-2921",
+    "arrondissement": "9",
+    "horaires": "<span class=\"equipment-closed\">Fermé</span>\n\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "24, rue Marguerite de Rochechouart, 9<sup>e</sup>",
+    "latitude": 48.8753,
+    "longitude": 2.314,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/5223fa0c604bded8de8f4f3d36f3f6a4.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 5,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 1,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 2,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 4,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 2,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-catherine-lagatu",
+    "name": "Piscine Catherine Lagatu",
+    "website": "https://www.paris.fr/lieux/piscine-catherine-lagatu-5041",
+    "arrondissement": "10",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "155 avenue Parmentier, 10<sup>e</sup>",
     "latitude": 48.838,
-    "longitude": 2.321,
-    "photo": "lieu-f.jpg",
-    "notes": "Parfait pour nager tranquillement.",
+    "longitude": 2.319,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/701db812dafe4d60766bbd75f39408d5.jpg",
+    "notes": "Une expérience de nage plaisante.",
     "scores": {
-      "materiel": { "label": "Matériel à disposition", "val": 4 },
-      "frequentation": { "label": "Fréquentation", "val": 5 },
-      "ouverture": { "label": "Horaires d'ouverture", "val": 4 },
-      "amabilite": { "label": "Amabilité du personnel", "val": 4 },
-      "proprete_bassin": { "label": "Propreté du bassin", "val": 5 },
-      "vestiaire": { "label": "État des vestiaires", "val": 4 },
-      "eau": { "label": "Qualité de l'eau", "val": 5 },
-      "prix": { "label": "Prix", "val": 4 },
-      "temperature": { "label": "Température de l'eau", "val": 4 },
-      "beaute": { "label": "Beauté du lieu", "val": 4 }
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 4,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 1,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
     },
     "details": {
       "vestiaire_sep": true,
-      "desc_vestiaire": "Propres et bien organisés.",
-      "desc_bassin": "Atmosphère feutrée et apaisante."
-    }
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-chteau-landon",
+    "name": "Piscine Château-Landon",
+    "website": "https://www.paris.fr/lieux/piscine-chateau-landon-2923",
+    "arrondissement": "10",
+    "horaires": "Période scolaire \n\n\n                  06:30 à 08:30\n\n                  13:30 à 23:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "31, rue du château-Landon, 10<sup>e</sup>",
+    "latitude": 48.8804,
+    "longitude": 2.3507,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2026/03/07/0266e56c28af4ee8e19b9378bf3fb7f1.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 1,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 4,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 5,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 2,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 10",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-georges-rigal",
+    "name": "Piscine Georges Rigal",
+    "website": "https://www.paris.fr/lieux/piscine-georges-rigal-2924",
+    "arrondissement": "11",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n11:30 à 21:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "115, boulevard de Charonne, 11<sup>e</sup>",
+    "latitude": 48.8493,
+    "longitude": 2.3826,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/1587b91930659fc1324f511722928b5d.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 2,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 2,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 4,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 4,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 4,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-de-la-cour-des-lions",
+    "name": "Piscine de la Cour des Lions",
+    "website": "https://www.paris.fr/lieux/piscine-de-la-cour-des-lions-2925",
+    "arrondissement": "11",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:30 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "9, rue Alphonse Baudin, 11<sup>e</sup>",
+    "latitude": 48.8494,
+    "longitude": 2.358,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2024/02/05/8a7fd67d434b2f5b5bf2b2b1a124cfc2.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 1,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-roger-le-gall",
+    "name": "Piscine Roger Le Gall",
+    "website": "https://www.paris.fr/lieux/piscine-roger-le-gall-2950",
+    "arrondissement": "12",
+    "horaires": "Période scolaire\n08:00 à 21:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "34, boulevard Carnot, 12<sup>e</sup>",
+    "latitude": 48.8163,
+    "longitude": 2.3377,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/30/aa83ccc801ec20129fdf9a8850ba7c6d.jpeg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 1,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 5,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-jean-boiteux",
+    "name": "Piscine Jean Boiteux",
+    "website": "https://www.paris.fr/lieux/piscine-jean-boiteux-2926",
+    "arrondissement": "12",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "13, rue Hénard, 12<sup>e</sup>",
+    "latitude": 48.8449,
+    "longitude": 2.2503,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/30/e38e0f94b1fd942a7f2342588ba09a3c.jpeg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 2,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 2,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 4,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-josphine-baker",
+    "name": "Piscine Joséphine-Baker",
+    "website": "https://www.paris.fr/lieux/piscine-josephine-baker-2930",
+    "arrondissement": "13",
+    "horaires": "Periode scolaire \n\n\n                  07:00 à 12:00\n\n                  13:00 à 20:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "quai François Mauriac - Quai de la Gare, 13<sup>e</sup>",
+    "latitude": 48.8394,
+    "longitude": 2.2872,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/10/573e6af45bea0dce577966053e2fa0a8.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 5,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 4,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 2,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 10 (toit ouvrant)",
+    "profondeur": "0,90 m à 2 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-chteau-des-rentiers",
+    "name": "Piscine Château des Rentiers",
+    "website": "https://www.paris.fr/lieux/piscine-chateau-des-rentiers-2928",
+    "arrondissement": "13",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "184, rue du Château des Rentiers, 13<sup>e</sup>",
+    "latitude": 48.8218,
+    "longitude": 2.3458,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/247068bff76ec5ee31e672a4e71c66e1.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 2,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 2,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 4,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 1,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-dunois",
+    "name": "Piscine Dunois",
+    "website": "https://www.paris.fr/lieux/piscine-dunois-2929",
+    "arrondissement": "13",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n11:30 à 17:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "70, rue Dunois, 13<sup>e</sup>",
+    "latitude": 48.8926,
+    "longitude": 2.2636,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/10/92a97b96cda6d76b8dc41892dbd830ea.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 5,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 1,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 12,5",
+    "profondeur": "0,80 m à 3,40 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-de-la-butte-aux-cailles",
+    "name": "Piscine de la Butte aux Cailles",
+    "website": "https://www.paris.fr/lieux/piscine-de-la-butte-aux-cailles-2927",
+    "arrondissement": "13",
+    "horaires": "<span class=\"equipment-closed\">Fermé</span>\n\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "5, place Paul Verlaine, 13<sup>e</sup>",
+    "latitude": 48.8398,
+    "longitude": 2.3043,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2026/08/24/da840bfb24808c3414db652a353f473c.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 5,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 2,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 1,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 1,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-thrse-et-jeanne-brul",
+    "name": "Piscine Thérèse et Jeanne Brulé ",
+    "website": "https://www.paris.fr/lieux/piscine-therese-et-jeanne-brule-19569",
+    "arrondissement": "14",
+    "horaires": "Période scolaire\n\n\n                  07:00 à 09:00\n\n                  12:00 à 22:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "1, place Edith Thomas, 14<sup>e</sup>",
+    "latitude": 48.8366,
+    "longitude": 2.2963,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/10/926b209b91b93f607aaf70f6694a3c75.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-didot",
+    "name": "Piscine Didot",
+    "website": "https://www.paris.fr/lieux/piscine-didot-2932",
+    "arrondissement": "14",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n11:30 à 19:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "22, avenue Georges Lafenestre, 14<sup>e</sup>",
+    "latitude": 48.8771,
+    "longitude": 2.3953,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/774a38a983bea36885e4291b869ae74f.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 1,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 12,5",
+    "profondeur": "0,80 m à 3 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-aspirant-dunand",
+    "name": "Piscine Aspirant Dunand",
+    "website": "https://www.paris.fr/lieux/piscine-aspirant-dunand-2931",
+    "arrondissement": "14",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:45\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "20, rue Jacques Perrin, 14<sup>e</sup>",
+    "latitude": 48.8984,
+    "longitude": 2.2767,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/ea2dbc3dcefec11eb9cdfcd4f5299fdc.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 1,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-la-plaine",
+    "name": "Piscine La Plaine ",
+    "website": "https://www.paris.fr/lieux/piscine-la-plaine-2937",
+    "arrondissement": "15",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n\n\n                  07:00 à 08:15\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "13, rue du Général Guillaumat, 15<sup>e</sup>",
+    "latitude": 48.815,
+    "longitude": 2.277,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/7f12ce674db936df62541715d93641a0.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 4,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 2,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 1,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 12,5",
+    "profondeur": "0,80 m à 3,40 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-ren-et-andr-mourlon",
+    "name": "Piscine René et André Mourlon",
+    "website": "https://www.paris.fr/lieux/piscine-rene-et-andre-mourlon-2938",
+    "arrondissement": "15",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "19, rue Gaston de Caillavet, 15<sup>e</sup>",
+    "latitude": 48.8709,
+    "longitude": 2.3176,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/30/5781c2c137f9316e5673ff409c495f51.jpeg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-emile-anthoine",
+    "name": "Piscine Emile Anthoine",
+    "website": "https://www.paris.fr/lieux/piscine-emile-anthoine-19201",
+    "arrondissement": "15",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n\n\n                  07:00 à 08:45\n\n                  11:30 à 22:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "9, rue Jean Rey, 15<sup>e</sup>",
+    "latitude": 48.8724,
+    "longitude": 2.3914,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/d566038b1cfe694f40982fcb665403ff.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 5,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 2,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-keller",
+    "name": "Piscine Keller",
+    "website": "https://www.paris.fr/lieux/piscine-keller-2936",
+    "arrondissement": "",
+    "horaires": "période Scolaire \n07:00 à 20:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "14, rue de l'Ingénieur Robert-Keller, 15<sup>e</sup>",
+    "latitude": 48.887,
+    "longitude": 2.3525,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/30/5fb483ce86645e24a1f073108380e726.jpeg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 5,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 1,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 2,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "50 × 15 (toit ouvrant) (mur amovible)",
+    "profondeur": "1,40 m à 3,80 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-armand-massard",
+    "name": "Piscine Armand Massard",
+    "website": "https://www.paris.fr/lieux/piscine-armand-massard-2933",
+    "arrondissement": "15",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 20:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "66 boulevard du Montparnasse , 15<sup>e</sup>",
+    "latitude": 48.8595,
+    "longitude": 2.2912,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/19c1018bdbe6a9cf1bcd772f7d8ae44c.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 2,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 2,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-blomet",
+    "name": "Piscine Blomet",
+    "website": "https://www.paris.fr/lieux/piscine-blomet-2934",
+    "arrondissement": "15",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n\n\n                  07:00 à 08:45\n\n                  11:30 à 17:45\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "17, rue Blomet, 15<sup>e</sup>",
+    "latitude": 48.8369,
+    "longitude": 2.3411,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/10/7e4640c2a3a91f21dee0179a4a5f12b8.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 1,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 4,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "50 × 12 (mur amovible)",
+    "profondeur": "0,85 m à 2 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-henry-de-montherlant",
+    "name": "Piscine Henry de Montherlant",
+    "website": "https://www.paris.fr/lieux/piscine-henry-de-montherlant-2939",
+    "arrondissement": "16",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "30, boulevard Lannes, 16<sup>e</sup>",
+    "latitude": 48.8172,
+    "longitude": 2.3811,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/d86094203c38e2ed4fd46b23453f4045.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 2,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 5,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-dauteuil",
+    "name": "Piscine d'Auteuil",
+    "website": "https://www.paris.fr/lieux/piscine-d-auteuil-3324",
+    "arrondissement": "16",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n11:30 à 20:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "1, Route des Lacs à Passy, 16<sup>e</sup>",
+    "latitude": 48.8493,
+    "longitude": 2.3142,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2025/05/16/92ba995071bfdc852a7b6919b814a10d.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 5,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 15",
+    "profondeur": "1,20 m à 4,50 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-marjorie-gestring-ex-piscine-champerret",
+    "name": "Piscine Marjorie Gestring (Ex : Piscine Champerret)",
+    "website": "https://www.paris.fr/lieux/piscine-marjorie-gestring-ex-piscine-champerret-2941",
+    "arrondissement": "17",
+    "horaires": "Période scolaire \n11:30 à 22:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "36, boulevard de Reims, 17<sup>e</sup>",
+    "latitude": 48.8115,
+    "longitude": 2.3039,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/08/10/d728a27d8acbbe7f7a7a7576b52b2262.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 2,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 2,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 2,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-bernard-lafay",
+    "name": "Piscine Bernard Lafay",
+    "website": "https://www.paris.fr/lieux/piscine-bernard-lafay-2940",
+    "arrondissement": "17",
+    "horaires": "<span class=\"equipment-closed\">Fermé</span>\n\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "79, rue de la Jonquière, 17<sup>e</sup>",
+    "latitude": 48.8176,
+    "longitude": 2.3504,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/036da9a1f5b0424f1cd99d4714eddb5c.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 2,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 5,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 1,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 4,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 5,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 2,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-hbert",
+    "name": "Piscine Hébert",
+    "website": "https://www.paris.fr/lieux/piscine-hebert-2943",
+    "arrondissement": "",
+    "horaires": "Période scolaire : horaires d'ouverture scolaire\n\n\n                  07:00 à 08:30\n\n                  11:30 à 17:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "2, rue des Fillettes, 18<sup>e</sup>",
+    "latitude": 48.872,
+    "longitude": 2.2562,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/a230b0785bb141ee0efb2c261472bd05.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 1,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 3,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 11,75",
+    "profondeur": "1,80 m à 2,30 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-bertrand-dauvin",
+    "name": "Piscine Bertrand Dauvin",
+    "website": "https://www.paris.fr/lieux/piscine-bertrand-dauvin-2942",
+    "arrondissement": "18",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "12, rue René Binet, 18<sup>e</sup>",
+    "latitude": 48.8222,
+    "longitude": 2.3867,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2024/01/23/f3ab7217ba097a30e05020babd9fced1.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 5,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-des-amiraux",
+    "name": "Piscine des Amiraux",
+    "website": "https://www.paris.fr/lieux/piscine-des-amiraux-2944",
+    "arrondissement": "18",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "6, rue Hermann Lachapelle, 18<sup>e</sup>",
+    "latitude": 48.8416,
+    "longitude": 2.3245,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/80425db441ceb216c5460fb1e3c8b308.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 1,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 4,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "33 × 10",
+    "profondeur": "1 m à 2,70 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-solita-salgado",
+    "name": "Piscine Solita Salgado",
+    "website": "https://www.paris.fr/lieux/piscine-solita-salgado-20617",
+    "arrondissement": "18",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 17:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "133 rue Belliard, 18<sup>e</sup>",
+    "latitude": 48.8779,
+    "longitude": 2.2637,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2025/08/11/1b783d507a33ec7821d3e6b4671096ce.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 2,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 4,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 2,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 5,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 1,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-edouard-pailleron",
+    "name": "Piscine Edouard Pailleron",
+    "website": "https://www.paris.fr/lieux/piscine-edouard-pailleron-2945",
+    "arrondissement": "19",
+    "horaires": "Période scolaire: horaires d'ouverture aux publics\n07:00 à 22:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "32, rue Edouard Pailleron, 19<sup>e</sup>",
+    "latitude": 48.8998,
+    "longitude": 2.3887,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/2f03178bc6c87d70c827f2904a02a562.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 5,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 2,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 4,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 2,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-georges-hermant",
+    "name": "Piscine Georges Hermant",
+    "website": "https://www.paris.fr/lieux/piscine-georges-hermant-2948",
+    "arrondissement": "19",
+    "horaires": "Période scolaire\n08:30 à 20:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "8-10, rue David d Angers, 19<sup>e</sup>",
+    "latitude": 48.8382,
+    "longitude": 2.3189,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2026/08/29/ac073bce54de07558a4e9764ddd103dd.jpeg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 5,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 4,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 3,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 5,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 4,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-rouvet",
+    "name": "Piscine Rouvet",
+    "website": "https://www.paris.fr/lieux/piscine-rouvet-2947",
+    "arrondissement": "19",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "1, rue Rouvet, 19<sup>e</sup>",
+    "latitude": 48.8213,
+    "longitude": 2.2696,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/3b2716a05152f90873b89543f33d0e45.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 4,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 4,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 3,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 4,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 3,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 2,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 4,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "33 × 12",
+    "profondeur": "0,80 m à 2,80 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-mathis",
+    "name": "Piscine Mathis",
+    "website": "https://www.paris.fr/lieux/piscine-mathis-2946",
+    "arrondissement": "",
+    "horaires": "Période scolaire : horaires d'ouverture grand public\n11:30 à 22:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "15, rue Mathis, 19<sup>e</sup>",
+    "latitude": 48.8466,
+    "longitude": 2.355,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/36661fc95b6182fc7ecc32cf0e6f139d.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 1,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 1,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 1,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 2,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "25 × 12,5",
+    "profondeur": "1,30 m à 3,30 m",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-alfred-nakache",
+    "name": "Piscine Alfred Nakache",
+    "website": "https://www.paris.fr/lieux/piscine-alfred-nakache-4012",
+    "arrondissement": "20",
+    "horaires": "Période scolaire : horaire d'ouverture grand public\n\n\n                  07:00 à 08:30\n\n                  11:30 à 18:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "4-12 rue Dénoyez, 20<sup>e</sup>",
+    "latitude": 48.8346,
+    "longitude": 2.2862,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2023/07/05/e794bee37cf2ca414fc6aa654c615711.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 4,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 2,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 1,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 3,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 4,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 2,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 1,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-georges-vallerey",
+    "name": "Piscine Georges-Vallerey",
+    "website": "https://www.paris.fr/lieux/piscine-georges-vallerey-2949",
+    "arrondissement": "20",
+    "horaires": "Période scolaire 2026-2027\n\n\n                  07:00 à 08:30\n\n                  12:30 à 19:00\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "148, avenue Gambetta, 20<sup>e</sup>",
+    "latitude": 48.8585,
+    "longitude": 2.3894,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2024/05/30/b228c8c0fdf12dfc44c5a0c454440f42.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 1,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 3,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 2,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 5,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 5,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 5,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": false,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "50 × 21 (toit ouvrant) (mur amovible)",
+    "profondeur": "0,90 m à 2,15 m (plancher amovible)",
+    "tarif": "3€50 / réduit 2€"
+  },
+  {
+    "id": "piscine-yvonne-godard",
+    "name": "Piscine Yvonne Godard",
+    "website": "https://www.paris.fr/lieux/piscine-yvonne-godard-19543",
+    "arrondissement": "20",
+    "horaires": "période scolaire\n11:30 à 22:30\n",
+    "description": "Une piscine municipale agréable et bien entretenue.",
+    "address": "7 rue Serpollet, 20<sup>e</sup>",
+    "latitude": 48.8686,
+    "longitude": 2.3865,
+    "photo": "https://cdn.paris.fr/eqpts-prod/2022/05/10/40973a2334118bb204d14b3239c5e29a.jpg",
+    "notes": "Une expérience de nage plaisante.",
+    "scores": {
+      "materiel": {
+        "label": "Matériel à disposition",
+        "val": 3,
+        "comment": ""
+      },
+      "frequentation": {
+        "label": "Fréquentation",
+        "val": 3,
+        "comment": ""
+      },
+      "ouverture": {
+        "label": "Horaires d'ouverture",
+        "val": 4,
+        "comment": ""
+      },
+      "amabilite": {
+        "label": "Amabilité du personnel",
+        "val": 1,
+        "comment": ""
+      },
+      "proprete_bassin": {
+        "label": "Propreté du bassin",
+        "val": 3,
+        "comment": ""
+      },
+      "vestiaire": {
+        "label": "État des vestiaires",
+        "val": 5,
+        "comment": ""
+      },
+      "eau": {
+        "label": "Qualité de l'eau",
+        "val": 1,
+        "comment": ""
+      },
+      "prix": {
+        "label": "Prix",
+        "val": 4,
+        "comment": ""
+      },
+      "beaute": {
+        "label": "Beauté du lieu",
+        "val": 1,
+        "comment": ""
+      },
+      "temperature": {
+        "label": "Température de l'eau",
+        "val": 3,
+        "comment": ""
+      }
+    },
+    "details": {
+      "vestiaire_sep": true,
+      "desc_vestiaire": "Vestiaires standard.",
+      "desc_bassin": "Bassin propre et bien éclairé."
+    },
+    "basin_size": "",
+    "profondeur": "",
+    "tarif": "3€50 / réduit 2€"
   }
 ]

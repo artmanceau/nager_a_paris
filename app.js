@@ -104,32 +104,46 @@ function renderLieux(lieux, scores = {}) {
 
         card.innerHTML = `
             <div class="card-header">
-                <h3>${lieu.name}</h3>
-                <div class="card-metrics">
-                    <span class="card-score">Score: ${displayScore}</span>
-                    <span class="card-dist">Distance: ${displayDist}</span>
+                <div class="header-main">
+                    <h3 style="margin-bottom: 0;">${lieu.name}</h3>
+                    <div class="card-metrics">
+                        <span class="card-score">Score: ${displayScore}</span>
+                        <span class="card-dist">Distance: ${displayDist}</span>
+                    </div>
                 </div>
             </div>
             <div class="card-content">
-                <div class="info-grid">
+                <div class="card-main-layout">
+                    <div class="card-image-section">
+                        <img src="${lieu.photo}" alt="${lieu.name}" class="lieu-photo-large" onerror="this.src='https://via.placeholder.com/300x200?text=No+Img'">
+                    </div>
+                    <div class="card-ratings-section">
+                        <div class="details-scores">
+                            ${Object.entries(lieu.scores).map(([key, item]) => `
+                                <div class="score-bar-container">
+                                    <div class="score-label">
+                                        <span>${item.label} ${item.comment ? `— <em>${item.comment}</em>` : ''}</span>
+                                        <span>${renderDrops(item.val)}</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+                <div class="info-grid" style="margin-top: 20px;">
                     <div class="info-item"><strong>Adresse</strong>${lieu.address}</div>
                     <div class="info-item"><strong>Notes</strong>${lieu.notes}</div>
+                    <div class="info-item"><strong>Horaires</strong>${lieu.horaires.replace(/\\n/g, '<br>')}</div>
+                    <div class="info-item"><strong>Tarifs</strong>${lieu.tarif || 'Non communiqué'}</div>
+                    <div class="info-item"><strong>Lien</strong><a href="${lieu.website}" target="_blank">${lieu.website}</a></div>
                 </div>
                 <p><strong>Description:</strong> ${lieu.description}</p>
-                <div class="details-scores">
-                    ${Object.entries(lieu.scores).map(([key, item]) => `
-                        <div class="score-bar-container">
-                            <div class="score-label">
-                                <span>${item.label}</span>
-                                <span>${renderDrops(item.val)}</span>
-                            </div>
-                        </div>
-                    `).join('')}
-                </div>
                 <div class="extra-details" style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #eee; font-size: 0.9rem;">
                     <p><strong>Vestiaires:</strong> ${lieu.details.vestiaire_sep ? 'Séparés H/F' : 'Communs'}</p>
                     <p><strong>Détail vestiaires:</strong> ${lieu.details.desc_vestiaire}</p>
                     <p><strong>Détail bassin:</strong> ${lieu.details.desc_bassin}</p>
+                    <p><strong>Taille du bassin:</strong> ${lieu.basin_size || 'Non communiqué'}</p>
+                    <p><strong>Profondeur:</strong> ${lieu.profondeur || 'Non communiquée'}</p>
                 </div>
             </div>
         `;

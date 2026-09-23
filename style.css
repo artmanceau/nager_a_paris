@@ -175,10 +175,22 @@ header h1 {
     align-items: center;
 }
 
+.header-main {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
 .card-header h3 {
     margin: 0;
     font-size: 1.1rem;
     color: #0077be;
+}
+
+.card-header h3 a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .card-score {
@@ -199,9 +211,45 @@ header h1 {
 }
 
 .lieu-card.expanded .card-content {
-    max-height: 1000px;
+    max-height: 1200px;
     padding: 20px;
     border-top: 1px solid #eee;
+}
+
+.card-main-layout {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+}
+
+@media (max-width: 600px) {
+    .card-main-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card-image-section {
+    flex: 0 0 40%;
+}
+
+.lieu-photo-large {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid #eee;
+    display: block;
+}
+
+.card-ratings-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .info-grid {
@@ -241,3 +289,4 @@ header h1 {
     height: 100%;
     transition: width 0.5s ease-out;
 }
+
