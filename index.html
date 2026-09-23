@@ -8,8 +8,45 @@
 </head>
 <body>
     <div id="app">
-        <h1>Nager à Paris</h1>
-        <!-- Content will be injected by app.js -->
+        <header>
+            <h1>Nager à Paris</h1>
+            <p>Trouvez votre spot idéal pour nager</p>
+        </header>
+
+        <section id="filter-menu" class="filter-container">
+            <h2>Mes Critères</h2>
+            <div class="filter-grid">
+                <div class="filter-group full-width">
+                    <label for="filter-address">Votre Adresse</label>
+                    <input type="text" id="filter-address" placeholder="Ex: 12 rue de Rivoli, Paris">
+                </div>
+                <div class="filter-group">
+                    <label for="filter-calme">Calme</label>
+                    <input type="range" id="filter-calme" min="0" max="10" value="5">
+                    <span id="val-calme">5</span>
+                </div>
+                <div class="filter-group">
+                    <label for="filter-nature">Nature</label>
+                    <input type="range" id="filter-nature" min="0" max="10" value="5">
+                    <span id="val-nature">5</span>
+                </div>
+                <div class="filter-group">
+                    <label for="filter-culture">Culture</label>
+                    <input type="range" id="filter-culture" min="0" max="10" value="5">
+                    <span id="val-culture">5</span>
+                </div>
+                <div class="filter-group">
+                    <label for="filter-restaurants">Restaurants</label>
+                    <input type="range" id="filter-restaurants" min="0" max="10" value="5">
+                    <span id="val-restaurants">5</span>
+                </div>
+            </div>
+            <button id="search-btn">Rechercher le spot idéal</button>
+        </section>
+
+        <main id="pool-list">
+            <!-- Pool cards will be injected here -->
+        </main>
     </div>
     <script src="app.js"></script>
 </body>

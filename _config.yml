@@ -1,0 +1,10 @@
+# Site Settings
+title: Nager à Paris
+email: contact@nageraparis.fr
+description: Trouvez votre spot idéal pour nager à Paris
+
+# Collections
+collections:
+  pools:
+    output: true
+    permalink: /pools/:name/
