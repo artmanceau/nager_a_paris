@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lieu-a",
+    "name": "Lieu A",
+    "description": "Une description du lieu.",
+    "address": "12 rue de Rivoli, Paris",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "photo": "lieu-a.jpg",
+    "notes": "Très agréable, proche des transports.",
+    "scores": {
+      "calme": 8.5,
+      "nature": 7.0,
+      "culture": 9.0,
+      "restaurants": 8.0
+    }
+  }
+]

@@ -1,2 +1,2 @@
-# nager_a_paris
-Site web pour trouver la piscine parisienne qui correspond à ses besoins
+# Nager à Paris
+Application pour trouver les meilleurs endroits où nager à Paris selon vos critères.
