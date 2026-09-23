@@ -1,0 +1,12 @@
+{
+  "name": "nager-a-paris-compiler",
+  "version": "1.0.0",
+  "description": "Compile markdown pool data to JSON",
+  "main": "compile.js",
+  "scripts": {
+    "compile": "node compile.js"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
