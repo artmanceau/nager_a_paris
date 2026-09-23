@@ -1,0 +1,98 @@
+[
+  {
+    "id": "lieu-a",
+    "name": "Piscine Municipale Rivoli",
+    "description": "Une piscine historique avec un cadre architectural magnifique.",
+    "address": "12 rue de Rivoli, Paris",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "photo": "lieu-a.jpg",
+    "notes": "Très agréable, proche des transports.",
+    "scores": {
+      "calme": 6.5,
+      "nature": 2.0,
+      "culture": 9.0,
+      "restaurants": 8.0
+    }
+  },
+  {
+    "id": "lieu-b",
+    "name": "Bassin de la Villette",
+    "description": "Un grand espace ouvert idéal pour les longueurs en plein air.",
+    "address": "Bassin de la Villette, Paris",
+    "latitude": 48.883,
+    "longitude": 2.382,
+    "photo": "lieu-b.jpg",
+    "notes": "Ambiance urbaine et dynamique.",
+    "scores": {
+      "calme": 4.0,
+      "nature": 5.0,
+      "culture": 6.0,
+      "restaurants": 9.5
+    }
+  },
+  {
+    "id": "lieu-c",
+    "name": "Piscine Pontoise",
+    "description": "Une piscine moderne et lumineuse dans le 1er arrondissement.",
+    "address": "Rue de Pontoise, Paris",
+    "latitude": 48.865,
+    "longitude": 2.341,
+    "photo": "lieu-c.jpg",
+    "notes": "Très propre et bien entretenue.",
+    "scores": {
+      "calme": 7.0,
+      "nature": 1.0,
+      "culture": 7.0,
+      "restaurants": 7.0
+    }
+  },
+  {
+    "id": "lieu-d",
+    "name": "Piscine Molitor",
+    "description": "La piscine mythique de Paris, luxe et art déco.",
+    "address": "130 rue de Vaugirard, Paris",
+    "latitude": 48.834,
+    "longitude": 2.284,
+    "photo": "lieu-d.jpg",
+    "notes": "Expérience haut de gamme, cadre exceptionnel.",
+    "scores": {
+      "calme": 8.0,
+      "nature": 6.0,
+      "culture": 10.0,
+      "restaurants": 9.0
+    }
+  },
+  {
+    "id": "lieu-e",
+    "name": "Piscine Josephine Baker",
+    "description": "Une piscine flottante unique sur la Seine.",
+    "address": "Quai d'Orsay, Paris",
+    "latitude": 48.861,
+    "longitude": 2.318,
+    "photo": "lieu-e.jpg",
+    "notes": "Vue incroyable sur la ville.",
+    "scores": {
+      "calme": 5.0,
+      "nature": 8.0,
+      "culture": 8.0,
+      "restaurants": 6.0
+    }
+  },
+  {
+    "id": "lieu-f",
+    "name": "Piscine Georges Carpentier",
+    "description": "Élégance et calme dans le 14ème arrondissement.",
+    "address": "Rue Georges Carpentier, Paris",
+    "latitude": 48.838,
+    "longitude": 2.321,
+    "photo": "lieu-f.jpg",
+    "notes": "Parfait pour nager tranquillement.",
+    "scores": {
+      "calme": 9.0,
+      "nature": 2.0,
+      "culture": 7.0,
+      "restaurants": 5.0
+    }
+  }
+]

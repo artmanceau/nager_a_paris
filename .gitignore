@@ -4,7 +4,4 @@ _site/
 # Dependencies
 Gemfile
 Gemfile.lock
-
-# Temporary data files
-data.json
 `
